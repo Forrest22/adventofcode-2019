@@ -14,7 +14,7 @@ def calculatefuel(mass):
 
 total = 0
 with open('input.txt') as fp:
-	for i, line in enumerate(fp):
+	for line in fp:
 		line = int(line)
 		total += calculatefuel(line)
 
